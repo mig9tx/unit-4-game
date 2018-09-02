@@ -10,8 +10,6 @@ var greenValue = Math.floor(Math.random() * ((12 - 1) + 1) + 1);
 var blueValue = Math.floor(Math.random() * ((12 - 1) + 1) + 1);
 var redValue = Math.floor(Math.random() * ((12 - 1) + 1) + 1);
 var orangeValue = Math.floor(Math.random() * ((12 - 1) + 1) + 1);
-})
-
 var userScore = 0;
 var userWins = 0;
 var userLoss = 0;
@@ -25,7 +23,6 @@ function checkScore() {
     }
     else if (userScore > randomNumber) {
         userLoss++;
-        
     }
     $("#win").text("Wins: " + userWins);
     $("#loss").text("Losses: " + userLoss);
@@ -62,5 +59,6 @@ clickCrystals();
 
             
         });
-    }
+    }})
+
 

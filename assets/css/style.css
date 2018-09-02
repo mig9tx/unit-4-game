@@ -1,0 +1,14 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  body{
+    font-family: 'Metamorphous', cursive;
+  }
+  #Random-Number{
+      width: 100px;
+      height: 100px;
+      background-color: gainsboro;
+  }
+  #greencrystal{
+      background-color: yellow;
+  }

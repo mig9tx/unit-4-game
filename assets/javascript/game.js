@@ -19,10 +19,12 @@ $("#loss").text("Losses: " + userLoss);
 function checkScore() {
     if (userScore === randomNumber) {
         userWins++;
+        userScore = 0;
         
     }
     else if (userScore > randomNumber) {
         userLoss++;
+        userScore = 0;
     }
     $("#win").text("Wins: " + userWins);
     $("#loss").text("Losses: " + userLoss);
@@ -60,5 +62,3 @@ clickCrystals();
             
         });
     }})
-
-

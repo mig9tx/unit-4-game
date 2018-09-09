@@ -1,14 +1,70 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
+
+.jumbotron {
+    background-color: darkslategray;
+    text-shadow: orangered;
+}
+    
+h1{
+    font-family: 'Ceviche One', sans-serif;
+    font-size: 100px;
+    text-shadow:orangered;
+    background-color:black;
+    color: rgb(248, 47, 255);
+}
+
   body{
-    font-family: 'Metamorphous', cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    color: whitesmoke;
+    background-color: black;
+    align-content: center;
   }
   #Random-Number{
-      width: 100px;
-      height: 100px;
-      background-color: gainsboro;
+      width: auto;
+      height: auto;
+      font-size: 30px;
+      color: white;
+      align-content: center;          
   }
-  #greencrystal{
-      background-color: yellow;
+
+    #match{
+      color: orange;
+      font-size: 50px;
+    }
+    #user {
+      color: yellow;
+      font-size: 50px;
+   
   }
+  #footer {
+      position: fixed;
+      left: 0;
+      bottom:0;
+      width: 100%;
+      background-color: black;
+      color:  rgb(248, 47, 255);;
+      text-align: center;
+      height: 75px;
+  }
+ 
+  .thumbnail:hover {
+        position:relative;
+        width:110px;
+        transition: width 0.5s;
+        height: auto;
+        display:block;
+        z-index:999;
+    }
+
+    #Random-Number{
+    }
+
+    #User-Score {
+        font-size: 30px;
+        color: white;
+    }
+
+
+
+
+  
